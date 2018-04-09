@@ -20,3 +20,9 @@ if let _ = type {
 ```Swift
 let newArray = (arr.count > 0) ? arr : [] // 😂
 ```
+
+# Code 4
+```objc
+ return result == Success ? true : false
+ ```
+ 
