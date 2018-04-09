@@ -14,3 +14,9 @@ if let _ = type {
    switch type! {
    case .Value1:
 ```
+
+# Code 3
+
+```Swift
+let newArray = (arr.count > 0) ? arr : [] // 😂
+```
