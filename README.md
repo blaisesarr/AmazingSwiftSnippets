@@ -1,13 +1,13 @@
 # AmazingSwiftSnippets
-Amazing swift (or objective-c) code snippet found in a software 😎
+Amazing swift and objective-c code snippet found in a software 😎
 
-# Code 1
+## Snippet 1
 
 ```Swift
 let value = a ?? nil 😁
 ```
 
-# Code 2
+## Snippet 2
 
 ```Swift
 if let _ = type {
@@ -15,13 +15,13 @@ if let _ = type {
    case .Value1:
 ```
 
-# Code 3
+## Snippet 3
 
 ```Swift
 let newArray = (arr.count > 0) ? arr : [] // 😂
 ```
 
-# Code 4
+## Snippet 4
 ```objc
  return result == Success ? true : false
  ```
