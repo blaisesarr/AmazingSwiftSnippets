@@ -26,3 +26,11 @@ let newArray = (arr.count > 0) ? arr : [] // 😂
  return result == Success ? true : false
  ```
  
+ ## Snippet 5
+ ```Swift
+ if object is MyClass {
+   let value = object as! MyClass
+   ...
+ }
+ ```
+ 
