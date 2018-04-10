@@ -33,4 +33,14 @@ let newArray = (arr.count > 0) ? arr : [] // 😂
    ...
  }
  ```
- 
+ ## Snippet 6
+ ```objc
+ NSMutableArray *values = [[NSMutableArray alloc] init];
+ NSArray *keys = [myDictionary allKeys];
+ for (NSString *key in keys) {
+   [values addObject:myDictionary[key]];
+ }
+ ... Use values
+ 🤔
+```
+    
