@@ -43,4 +43,7 @@ let newArray = (arr.count > 0) ? arr : [] // 😂
  ... Use values
  🤔
 ```
-    
+ ## Snippet 7
+```objc
+NSString *str = [NSString stringWithFormat:@"EEEE d MMM yyyy à HH:mm"];
+```
