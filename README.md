@@ -12,7 +12,7 @@ let value = a ?? nil 😁
 ```Swift
 if let _ = type {
    switch type! {
-   case .Value1:
+   case .value1:
 ```
 
 ## Snippet 3
@@ -47,3 +47,10 @@ let newArray = (arr.count > 0) ? arr : [] // 😂
 ```objc
 NSString *str = [NSString stringWithFormat:@"EEEE d MMM yyyy à HH:mm"];
 ```
+## Snippet 8
+```Swift
+if let value = optionalValue, value != nil {
+  // Work with value
+}
+```
+😎
