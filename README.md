@@ -49,8 +49,5 @@ NSString *str = [NSString stringWithFormat:@"EEEE d MMM yyyy à HH:mm"];
 ```
 ## Snippet 8
 ```Swift
-if let value = optionalValue, value != nil {
-  // Work with value
-}
+let value = optionalValue as? MyClass!
 ```
-😎
