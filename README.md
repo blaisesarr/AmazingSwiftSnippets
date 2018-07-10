@@ -51,3 +51,15 @@ NSString *str = [NSString stringWithFormat:@"EEEE d MMM yyyy à HH:mm"];
 ```Swift
 let value = optionalValue as? MyClass!
 ```
+## Snippet 9
+```Swift
+if array.count > 1 {
+  return array
+} else {
+  if let _ = array.first {
+    return array
+  }
+    return []
+}
+```
+
